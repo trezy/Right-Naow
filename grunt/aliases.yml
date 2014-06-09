@@ -1,0 +1,5 @@
+default:
+  - 'clean'
+  - 'coffeelint'
+  - 'newer:coffee'
+  - 'newer:sass'

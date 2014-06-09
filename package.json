@@ -1,0 +1,25 @@
+{
+  "name": "Right-Naow",
+  "version": "0.1.0",
+  "description": "There's no better time than Naow.",
+  "main": "js/app.js",
+  "author": {
+    "name": "Trezy",
+    "email": "tre@trezy.com",
+    "url": "http://trezy.com"
+  },
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "coffee-script": "latest",
+    "coffeelint": "latest",
+    "load-grunt-config": "latest",
+    "grunt": "latest",
+    "grunt-coffeelint": "latest",
+    "grunt-contrib-clean": "latest",
+    "grunt-contrib-coffee": "latest",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-newer": "latest",
+    "time-grunt": "latest"
+  }
+}
