@@ -6,7 +6,7 @@
 module.exports =
   coffee:
     files: 'coffee/**/*.coffee'
-    tasks: ['coffeelint', 'coffee']
+    tasks: ['newer:coffeelint', 'newer:coffee']
   sass:
     files: 'scss/**/*'
-    tasks: 'sass:dev'
+    tasks: 'newer:sass'
