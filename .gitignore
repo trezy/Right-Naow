@@ -1,5 +1,9 @@
 # Created by http://www.gitignore.io - http://www.gitignore.io/api/osx,linux,windows,node,bower,sass,textmate,sublimetext
 
+### Project ###
+js
+css
+
 ### OSX ###
 .DS_Store
 .AppleDouble
