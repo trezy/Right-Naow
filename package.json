@@ -12,6 +12,7 @@
   "devDependencies": {
     "coffee-script": "latest",
     "coffeelint": "latest",
+    "express": "latest",
     "load-grunt-config": "latest",
     "grunt": "latest",
     "grunt-coffeelint": "latest",
