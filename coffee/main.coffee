@@ -6,6 +6,7 @@ require.config
 
     # Libraries
     'backbone': '../lib/backbone'
+    'marionette': '../lib/backbone.marionette'
     'handlebars': '../lib/handlebars'
     'jquery': '../lib/jquery'
     'underscore': '../lib/underscore'
@@ -43,10 +44,22 @@ require.config
 require [
   'underscore'
   'backbone'
-  'app'
+  'marionette'
+  'c/events'
 ], (
   _
   Backbone
-  App
+  Marionette
+  EventsCollection
 ) ->
-  window.app = new App
+  # Instantiate an application
+  App = new Marionette.Application
+
+  # Create a router to handle URL pathing
+  Router = Marionette.AppRouter.extend
+    appRoutes:
+      'event/:id':  'event'   # Event page
+      'events':     'events'  # Events page
+      'login':      'login'   # Login page
+
+  App.start()

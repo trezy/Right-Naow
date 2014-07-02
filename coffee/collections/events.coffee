@@ -10,7 +10,7 @@ define [
   Backbone
   EventModel
 ) ->
-  class EventList extends Backbone.Collection
+  class Events extends Backbone.Collection
     model: EventModel
 
     filter: (options) ->
